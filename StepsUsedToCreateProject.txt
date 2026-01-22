@@ -24,3 +24,4 @@
 15. You have created router, login. Now We have to initialise the, Need to register router in app.
 16. Now, We will add the aws service in project
 17. If you want to add any prefix to router you can inside api.py file in "app.include_router(aws.router, prefix="/aws")"
+18.
