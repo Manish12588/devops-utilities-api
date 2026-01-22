@@ -1,0 +1,4 @@
+fastapi
+uvicorn    #This library is used to run the application, Uvicorn is ASGI (Asynchronous Server Gateway Interface)
+psutil
+boto3
