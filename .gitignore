@@ -6,4 +6,4 @@ env
 */__pycache__/*
 __pycache__/*.pyc
 *.pyc
-*StepsUsedToCreateProject.txt
+*/StepsUsedToCreateProject.txt
