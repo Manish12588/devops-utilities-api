@@ -1,0 +1,27 @@
+1. Create a virtual environment that we will use to install the library of python
+   a. python -m venv venv               #Create a virtual environment
+   b. venv/scripts/activate             #Activate the virtual environment
+2. Create requirements.txt file         #Inside this file we keep on the library in this file
+3. Create main.py file                  #It's an entry point of your application
+4. app folder                           # Inside this folder we keep app related files (Init Rest API roots)
+5. services folder                      # Inside this folder we keep the logic of services (logic of API)
+6. routers folder                       # Inside this folder we keep the routs (api)       (requests/endpoints)            
+7. Using the fastAPI framework we will create the endpoint in python
+8. Install the library of python using "pip install -r requirement.txt"
+9. To convert any fuction into API we will use decorator (@app.get("/test"))
+10. After adding the details in main.py file, now open https://127.0.0.1/testAPI url in browser and see the message.
+11. If you want to see the doc of api you can open "http://127.0.0.1:8000/docs" 
+12. If you want to add readme of your api documenttation you can put "redoc_url=/" in your app.ay file
+13. if else in different way
+      """
+    if cpu_percent > cpu_threshold
+        status = "High CPU"
+    else
+        status = "Healthy"
+    """
+    status = "High CPU" if cpu_percent > cpu_threshold else "Healthy"
+14. If you want to add the exceptions in your code you can import the HTTPException class from fastAPI
+15. You have created router, login. Now We have to initialise the, Need to register router in app.
+16. Now, We will add the aws service in project
+17. If you want to add any prefix to router you can inside api.py file in "app.include_router(aws.router, prefix="/aws")"
+18.
